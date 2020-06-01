@@ -8,9 +8,9 @@ def hello_t(array)
 end
 
 
-hello_t(["Tim", "Tom", "Jim"]) do |name|
+hello_t(["Tim", "Tom", "Jim"]) do |i|
   if name.start_with?("T")
-    puts "Hi, #{name}"
+    puts "Hi, #{i}"
 
   
   end
